@@ -46,6 +46,20 @@ body {
 .navbar:hover {
   opacity: 1;
 }
+/* Back to top */
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  border: 3px solid white;
+  text-decoration: none;
+  color: white;
+  background: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+  z-index: 2;
+}
 /* Working Hour */
 .hour {
   font-size: 18px;
@@ -253,12 +267,16 @@ div.contact h1 {
 </div>
 
 <!-- Header -->
-<div class="header">
+<div class="header" id="header">
   <h1>Sushi Japan</h1>
 </div>
 
 <div class="hour">
   <h4>Open from 10am to 12pm</h4>
+</div>
+
+<div class="fixed">
+<a href="#header">Back to top</a>
 </div>
 
 <!-- Menu Title -->
