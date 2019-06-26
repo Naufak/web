@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  font-size: 30px;
+  padding: 90px;
+  background: url("http://www.umisushigreenbay.com/wp-content/uploads/bb-plugin/cache/home_about_01-landscape.jpg") no-repeat;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  color: #fff;
+  background-color: #000;
+  opacity: 0.5;
+  position:absolute;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  opacity: 1;
+}
+
+/* Change color on hover */
+.navbar:hover {
+  opacity: 1;
+}
+
+/* Working Hour */
+.hour {
+  font-size: 18px;
+  color: white;
+  background: black;
+  padding:5px;
+  }
+
+/* Style Menu */
+.Menu {
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+  background: black;
+  color: white;
+  }
+  
+  
+/* Menu Gallery */
+div.gallery {
+  border: 1px solid white;
+}
+
+div.gallery:hover {
+  border: 1px solid #f44259;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+  color:white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  background: black;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 0px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  width:100%
+  color: black;
+}
+/* About */
+div.about h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 80px;
+  background: #c66d43;
+  color: white;
+  margin: 0 0;
+  }
+  
+div.about p {
+  font-size: 20px;
+  padding: 5px;
+  background: #c66d43;
+  color: white;
+  margin: 0 0;
+  }
+  
+div.about img {
+   display: flex;
+   }
+  
+div.time p{
+   font-size: 20px;
+   text-align: center;
+   padding: 10px;
+  }
+  
+/* Slideshow */
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+  
+/* Contact */
+div.contact h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 40px;
+  background: #f44259;
+  color: White;
+  margin: 0 0;
+}
+  
+  div.contact p {
+  padding: 10px;
+  background: #f44259;
+  color: White;
+  margin: 0 0;
+}
+
+/* Footer */
+.footer {
+  padding: 30px;
+  text-align: center;
+  background: #ddd;
+}
+}
+</style>
+</head>
+<body>
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="#">Menu</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>Sushi Japan</h1>
+</div>
+
+<div class="hour">
+  <h4>Open from 10am to 12pm</h4>
+</div>
+
+<!-- Menu Title -->
+<div class="Menu">
+  <h1>MENU</h1>
+</div>
+
+<!-- The flexible menu gallery (content) -->
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<!-- About Container -->
+<div class="about">
+    <h1>ABOUT</h1>
+    <p>Sushi Japan didirikan oleh Ms. Yamato Nadeshiko pada tahun 1995 supaya orang Indonesia dapat merasakan cita rasa autentik dari sushi Jepang. Dengan berbagai macam pilihan menu, anda tidak akan ragu untuk berkunjung kembali ke restoran kami. </p>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img_5terre.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img_lights.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img_mountains_wide.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    <h1><b>Opening Hours</b></h1>
+      <div class="time">
+        <p>Moday 10:00 - 24:00</p>
+        <p>Tuesday 10:00 - 24:00</p>
+        <p>Wednesday 10.00 - 12.00</p>
+        <p>Thursday 10:00 - 12:00</p>
+        <p>Friday 10:00 - 12:00</p>
+        <p>Saturday & Sunday Closed</p>
+      </div>
+</div>
+
+<!-- Contact -->
+<div class="contact">
+    <h1>CONTACT</h1>
+    <p>Find us at some address at some place or call us at 05050515-122330</p>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>            
+    <p class="content2"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="form" type="text" placeholder="Name" required name="Name"></p>          
+      <p><input class="form" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="form" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="form" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="form" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>Powered by Soy Sauce and Wasabi</h2>
+</div>
+
+</body>
+</html>
